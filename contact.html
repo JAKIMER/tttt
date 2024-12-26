@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>צור קשר - Liadt Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Liadt Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">בית</a></li>
+                <li><a href="products.html">מוצרים</a></li>
+                <li><a href="contact.html">צור קשר</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>צור קשר</h2>
+        <p>הצטרף לחנות שלנו בדיסקורד כדי לראות את כל המוצרים המיוחדים שלנו!</p>
+        <a href="https://discord.gg/ugSnB2TE8U" class="cta-button">היכנס לחנות שלנו</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Liadt Shop | כל הזכויות שמורות</p>
+    </footer>
+
+    <!-- Adding the provided script -->
+    <div id="bthn" lang="en"></div>
+    <script>
+        (function () {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "https://bringthemhomenow.net/1.1.0/hostages-ticker.js";
+            script.setAttribute(
+                "integrity",
+                "sha384-DHuakkmS4DXvIW79Ttuqjvl95NepBRwfVGx6bmqBJVVwqsosq8hROrydHItKdsne"
+            );
+            script.setAttribute("crossorigin", "anonymous");
+            document.getElementsByTagName("head")[0].appendChild(script);
+        })();
+    </script>
+</body>
+</html>
